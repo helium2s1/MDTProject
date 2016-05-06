@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   get 'welcome/index'
   get 'signup' => 'users#new'
   get 'report' => 'welcome#report'
+  get 'charity' => 'welcome#charity'
+  get 'supplier' => 'welcome#supplier'
 
   resources :users
   resources :transactions

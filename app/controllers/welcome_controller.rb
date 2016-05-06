@@ -4,4 +4,10 @@ class WelcomeController < ApplicationController
 
   def report
   end
+
+  def charity
+  end
+
+  def supplier
+  end
 end
