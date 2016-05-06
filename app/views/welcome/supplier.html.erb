@@ -7,7 +7,6 @@
 
   <!-- attach CSS styles -->
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/home.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -58,7 +57,7 @@
 		  <div class="modal-body">
 			<form role="form">
 				<div class="form-group">
-				  <label for="usrname"><img src="images/group.png"/> Supplier</label>
+				  <label for="usrname"><%= image_tag "group.png" %> Supplier</label>
 				  <input type="text" class="form-control" id="usrname" placeholder="Enter name of charity">
 				</div>
 				<div class="form-group">
@@ -66,7 +65,7 @@
 				  <input type="text" class="form-control" id="usrname" placeholder="Enter email">
 				</div>
 				<div class="form-group">
-				  <label for="usrname"><img src="images/map.png"/> Location</label>
+				  <label for="usrname"><%= image_tag "map.png" %> Location</label>
 				  <input type="text" class="form-control" id="usrname" placeholder="Charity address">
 				</div>
 				<button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Save</button>
