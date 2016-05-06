@@ -55,7 +55,7 @@
 			<h4 class="modal-title">Login</h4>
 		  </div>
 		  <div class="modal-body">
-			<form role="form">
+			<form role="form" action="/charity">
 				<div class="form-group">
 				  <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
 				  <input type="text" class="form-control" id="usrname" placeholder="Enter email">
@@ -100,7 +100,7 @@
 			<div class="tab-content">
 			<br>
 				<div id="supplier" class="tab-pane fade in active">
-					<form role="form">
+					<form action="/supplier" role="form">
 						<div class="form-group">
 						  <label for="usrname"><%= image_tag "group.png" %> Supplier</label>
 						  <input type="text" class="form-control" id="usrname" placeholder="Enter name of charity">
